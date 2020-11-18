@@ -181,6 +181,7 @@ function func_add_repo_rhel() {
 
 # Check dependencies
 function func_check_deps() {
+  return 0 #installing this way is stupid idea...
   __info "Checking dependencies..."
 
   if command -v ffmpeg >/dev/null 2>&1 ; then
