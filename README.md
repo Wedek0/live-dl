@@ -27,7 +27,8 @@ Download live streams from YouTube.
 - ffmpeg
 - jq
 - streamlink
-- youtube-dl
+- python
+- youtube-dlc
 - yq (python-yq)
 
 Tested on macOS 10.15, should be working on RHEL/CentOS 7 and Ubuntu.
